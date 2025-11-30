@@ -4,7 +4,7 @@ import './LoginPage.css';
 const LoginPage = () => {
 
     const handleLogin = () => {
-        window.location.href = "http://localhost:3000/auth/login";
+        window.location.href = "/auth/login";
     };
 
     return (

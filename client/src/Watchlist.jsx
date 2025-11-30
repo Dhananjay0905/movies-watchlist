@@ -120,7 +120,7 @@ const Watchlist = ({ user }) => {
                 <h1>🎬 MovieWatchlist</h1>
                 <div className="user-controls">
                     <span>{user.name}</span>
-                    <button className="logout-btn" onClick={() => window.location.href = 'http://localhost:3000/auth/logout'}>Logout</button>
+                    <button className="logout-btn" onClick={() => window.location.href = '/auth/logout'}>Logout</button>
                 </div>
             </header>
 
